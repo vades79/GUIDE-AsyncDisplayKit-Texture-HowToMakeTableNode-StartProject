@@ -13,6 +13,8 @@
 		5F0258BE23EC39910078FDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0258BD23EC39910078FDA6 /* ViewController.swift */; };
 		5F0258C323EC39920078FDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0258C223EC39920078FDA6 /* Assets.xcassets */; };
 		5F0258C623EC39920078FDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0258C423EC39920078FDA6 /* LaunchScreen.storyboard */; };
+		5F0258CF23EC40690078FDA6 /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0258CE23EC40690078FDA6 /* ItemsModel.swift */; };
+		5F0258D323EC40B00078FDA6 /* CustomCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0258D223EC40B00078FDA6 /* CustomCellNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5F0258C223EC39920078FDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0258C523EC39920078FDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0258C723EC39920078FDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0258CE23EC40690078FDA6 /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
+		5F0258D223EC40B00078FDA6 /* CustomCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellNode.swift; sourceTree = "<group>"; };
 		99174C7F1942E15B4D504D84 /* Pods-GUIDE. Texture - start.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUIDE. Texture - start.release.xcconfig"; path = "Target Support Files/Pods-GUIDE. Texture - start/Pods-GUIDE. Texture - start.release.xcconfig"; sourceTree = "<group>"; };
 		BBDD518EDD539167C0F6F69B /* Pods_GUIDE__Texture___start.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_GUIDE__Texture___start.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,12 +75,38 @@
 			children = (
 				5F0258B923EC39910078FDA6 /* AppDelegate.swift */,
 				5F0258BB23EC39910078FDA6 /* SceneDelegate.swift */,
-				5F0258BD23EC39910078FDA6 /* ViewController.swift */,
+				5F0258D023EC407B0078FDA6 /* Model */,
+				5F0258D123EC408B0078FDA6 /* ViewController */,
+				5F0258D423EC40B50078FDA6 /* CellNode */,
 				5F0258C223EC39920078FDA6 /* Assets.xcassets */,
 				5F0258C423EC39920078FDA6 /* LaunchScreen.storyboard */,
 				5F0258C723EC39920078FDA6 /* Info.plist */,
 			);
 			path = "GUIDE. Texture - start";
+			sourceTree = "<group>";
+		};
+		5F0258D023EC407B0078FDA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F0258CE23EC40690078FDA6 /* ItemsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F0258D123EC408B0078FDA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F0258BD23EC39910078FDA6 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5F0258D423EC40B50078FDA6 /* CellNode */ = {
+			isa = PBXGroup;
+			children = (
+				5F0258D223EC40B00078FDA6 /* CustomCellNode.swift */,
+			);
+			path = CellNode;
 			sourceTree = "<group>";
 		};
 		A97EC39B851A4D386CF4B706 /* Pods */ = {
@@ -204,6 +234,8 @@
 			files = (
 				5F0258BE23EC39910078FDA6 /* ViewController.swift in Sources */,
 				5F0258BA23EC39910078FDA6 /* AppDelegate.swift in Sources */,
+				5F0258D323EC40B00078FDA6 /* CustomCellNode.swift in Sources */,
+				5F0258CF23EC40690078FDA6 /* ItemsModel.swift in Sources */,
 				5F0258BC23EC39910078FDA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
