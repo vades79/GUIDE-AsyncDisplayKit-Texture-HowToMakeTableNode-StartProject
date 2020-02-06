@@ -1,0 +1,6 @@
+framework module Pods_GUIDE__Texture___start {
+  umbrella header "Pods-GUIDE. Texture - start-umbrella.h"
+
+  export *
+  module * { export * }
+}
