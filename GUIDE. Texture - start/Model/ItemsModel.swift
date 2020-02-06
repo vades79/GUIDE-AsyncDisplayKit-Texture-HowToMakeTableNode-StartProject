@@ -7,17 +7,3 @@
 //
 
 import UIKit
-
-struct Items {
-    var title: String
-    var description: String
-    var image: UIImage?
-    var imageURL: URL?
-    
-    init(title: String, description: String, image: UIImage? = nil, imageURL: URL? = nil) {
-        self.title = title
-        self.description = description
-        self.image = image
-        self.imageURL = imageURL
-    }
-}
